@@ -1,0 +1,63 @@
+.align-card {
+    box-sizing: content-box;
+    margin-top: 10px;
+
+}
+
+.nav-color {
+    margin: 0%;
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#intro {
+    background-image: url("https://www.pcclean.io/wp-content/gallery/fruit-hd-wallpapers/311171.jpg");
+    height: 100vh;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #intro {
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+h1 {
+    color: white;
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+.btn{
+    margin-left: auto;
+    margin-top: 10px;
+}
